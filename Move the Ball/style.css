@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-image: linear-gradient(to right, #252525, #000000);
+}
+
+#heading-container h1{
+    font-size: 5rem;
+    text-align: center;
+    color: red;
+    margin: 1rem 0rem 0.5rem 0rem;
+}
+
+.moveable-area-container {
+    border-radius: 0.8rem;
+    margin: auto;
+    height: 30rem;
+    width: 80vw;
+    border: 1rem solid greenyellow;
+    position: relative; 
+    box-sizing: border-box;
+}
+
+.the-ball {
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    background-color: greenyellow;
+    border: 1rem solid red;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
